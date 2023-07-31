@@ -30,6 +30,16 @@ function PrimaryButton(props:primarybutton){
         )
 
       }
+      else if(props.text=="Profile"){
+        return(
+            <Link to="/profile" className="link-tag">
+            <div className="primary-button" >
+    {props.text}
+    </div>
+    </Link>
+        )
+
+      }
       else{
 return(
     <Link to="/" className="link-tag">

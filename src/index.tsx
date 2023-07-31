@@ -8,6 +8,7 @@ import Culture from './components/culture/culture';
 import Infrastructure from './components/infrastructure/infrastructure';
 import Hostel from './components/hostel/hostel';
 import LoginPage from './components/loginpage/loginPage';
+import Profile from './components/profile/profile';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -43,6 +44,10 @@ const router=createBrowserRouter([
   {
     path:"/loginpage",
     element:<LoginPage/>
+  },
+  {
+    path:"/profile",
+    element:<Profile/>
   }
 ])
 const root = ReactDOM.createRoot(
