@@ -1,12 +1,12 @@
 .App {
   position: relative;
-  width: 360px;
-  height: 640px;
+  width: 100vw;
+  height: 100vh;
   background-image: url("./assets/images/building_img.svg");
 background-size: 647px 270px;
 background-repeat: no-repeat;
 background-position: bottom;
-background-position-x: -100px;
+background-position-x: 100%;
 background-position-y: 122%;
 
   
