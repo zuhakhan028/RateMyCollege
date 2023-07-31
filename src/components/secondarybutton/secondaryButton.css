@@ -1,0 +1,19 @@
+.secondary-button{
+    width: 330px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgba(var(--purple));
+    font-size: 18px;
+    font-weight: 400;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.link-tag{
+    text-decoration: none;
+    color:white
+}

@@ -1,0 +1,14 @@
+.overall-avg-component{
+   width: 112px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    background-color:rgba(var(--lightGray),0.6);
+    margin-bottom: 15px;
+}

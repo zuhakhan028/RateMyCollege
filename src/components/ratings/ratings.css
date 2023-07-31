@@ -1,0 +1,37 @@
+.ratings-header-logo{
+    margin-top:20px;
+    margin-left: 21px;
+
+}
+.ratings{
+    width: 360px;
+    height: 640px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ratings-inner-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ratings-header{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.dept-title{
+    font-size: 23px;
+    font-weight: 700;
+    color:rgba(var(--purple));
+    margin-top: 9px;
+ 
+}
+
+.primary-button-ratings-page{
+    margin-top: 20px;
+}

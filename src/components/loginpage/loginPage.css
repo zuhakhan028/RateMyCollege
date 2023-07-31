@@ -1,0 +1,35 @@
+.login-page{
+    width: 360px;
+    height: 640px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+   
+}
+.login-page-logo{
+    width: 150px;
+    height: 90px;
+    margin-top: 39px;
+    margin-left: 23px;
+}
+.login-page-middle-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sign-up-img{
+    width: 200px;
+    height: 200px;
+    margin-top: 58px;
+    margin-bottom: 40px;
+}
+
+.official_mail_id{
+    font-size: 15px;
+    font-weight: 400;
+    color:rgba(var(--lightGray),1);
+    text-align: center;
+    margin-top: 40px;
+}
