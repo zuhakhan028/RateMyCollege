@@ -9,6 +9,7 @@ import Infrastructure from './components/infrastructure/infrastructure';
 import Hostel from './components/hostel/hostel';
 import LoginPage from './components/loginpage/loginPage';
 import Profile from './components/profile/profile';
+import SignUp from './components/signup/signUp';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -48,6 +49,10 @@ const router=createBrowserRouter([
   {
     path:"/profile",
     element:<Profile/>
+  },
+  {
+    path:"/signup",
+    element:<SignUp/>
   }
 ])
 const root = ReactDOM.createRoot(

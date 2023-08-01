@@ -1,0 +1,62 @@
+.signup{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+ 
+ 
+}
+.signup-header{
+    display: flex;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-bottom: 40px;
+}
+.signup-middle-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+   
+}
+.college-input{
+    width: 320px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid rgba(var(--lightGray),1);
+    margin-bottom: 10px;
+   
+
+}
+.college-input::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.college-start-end-year-div{
+display: flex;
+margin: 0px 5px;
+
+}
+.college-start-year{
+    width: 150px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid rgba(var(--lightGray),1);
+    margin-bottom: 10px;
+    margin:0px 5px;
+}
+.college-start-year::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.terms-privacy-policy{
+    color:rgba(var(--lightGray),1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-page-last-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

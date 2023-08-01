@@ -12,36 +12,71 @@ interface Ratings{
     route:string;
 }
 function Ratings(props:Ratings){
-    return(
+    if(props.dept=="Hostel/Dorm" || props.dept=="Infrastructure"){
+        return(
         
-<div className="ratings">
-<header className="ratings-header">
-<img className="ratings-header-logo" src={logo}></img>
-<div className="primary-button-rating-page">
-<PrimaryButton  text="back"/>
-</div>
-</header>
-<div className="ratings-inner-div">
-<div className="dept-title">
-{props.dept}
-</div>
-<div>
-    <div className="dept-check-title"><EachRatingSection rating={props.dept_check_1}/></div>
-</div>
-<div>
-    <div className="dept-check-title"><EachRatingSection rating={props.dept_check_2}/></div>
-</div>
-<div>
-    <div className="dept-check-title"><EachRatingSection rating={props.dept_check_3}/></div>
-</div>
-<div>
-    <div className="dept-check-title"><EachRatingSection rating={props.dept_check_4}/></div>
-</div>
-<SecondaryButton text="Next" route={props.route}/>
-</div>
+            <div className="ratings">
+            <header className="ratings-header">
+            <img className="ratings-header-logo" src={logo}></img>
+            <div className="primary-button-rating-page">
+            <PrimaryButton  text="back"/>
+            </div>
+            </header>
+            <div className="ratings-inner-div">
+            <div className="dept-title">
+            {props.dept}
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_1}/></div>
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_2}/></div>
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_3}/></div>
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_4}/></div>
+            </div>
+            <SecondaryButton text="But One" route={props.route}/>
+            </div>
+            
+            </div>
+                )
+    }
+    else{
+        return(
+        
+            <div className="ratings">
+            <header className="ratings-header">
+            <img className="ratings-header-logo" src={logo}></img>
+            <div className="primary-button-rating-page">
+            <PrimaryButton  text="back"/>
+            </div>
+            </header>
+            <div className="ratings-inner-div">
+            <div className="dept-title">
+            {props.dept}
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_1}/></div>
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_2}/></div>
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_3}/></div>
+            </div>
+            <div>
+                <div className="dept-check-title"><EachRatingSection rating={props.dept_check_4}/></div>
+            </div>
+            <SecondaryButton text="Next" route={props.route}/>
+            </div>
+            
+            </div>
+                )
+    }
 
-</div>
-    )
 }
 
 export default Ratings

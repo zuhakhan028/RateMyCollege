@@ -15,7 +15,7 @@ function LoginPage(){
       <div className="login-page-middle-section">
         <img className="sign-up-img" src={signup_img} alt="signup_img"></img>
      
-      <SecondaryButton text="Sign Up With Gmail" route={""}/>
+      <SecondaryButton text="Sign Up With Gmail" route="/signup"/>
       <div>
         <PrimaryButton text="Login With Gmail"/>
       </div>
