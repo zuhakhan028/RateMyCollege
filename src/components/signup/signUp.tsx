@@ -16,7 +16,7 @@ function SignUp(){
 <section className="signup-page-last-section">
 <div className="terms-privacy-policy">By moving forward, l agree <br></br>
 to Terms of Service and Privacy Policy</div>
-<SecondaryButton text="Start Rating" route="/rating"/>
+<SecondaryButton text="Start Rating" route="/ratings"/>
 <PrimaryButton text="Login" />
 </section>
         </div>
