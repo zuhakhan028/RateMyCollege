@@ -7,7 +7,7 @@ function Header() {
     return (
 
         <header className="header">
-            <img className="logo-image" src={logo}></img>
+            <img className="logo-image" src={logo} alt="logo"></img>
 
             <PrimaryButton text="Profile" />
         </header>

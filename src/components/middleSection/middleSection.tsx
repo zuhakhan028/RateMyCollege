@@ -24,7 +24,7 @@ function MiddleSection(){
          
               
                  
-            <SecondaryButton text="Start Rating" route="/ratings"/>
+            <SecondaryButton text="Start Rating" route="/Loginpage"/>
                     
            
              
