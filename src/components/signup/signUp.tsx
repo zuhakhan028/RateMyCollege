@@ -5,14 +5,16 @@ import PrimaryButton from "../primarybutton/primaryButton"
 import YearDropdown from "../startyeardropdown/yearDropDown"
 import EndYearDropdown from "../endyeardropdown/endYearDropDown"
 function SignUp() {
+
+    
     return (
         <div className="signup">
             <header className="signup-header"><img src={logo} alt="logo"></img></header>
             <section className="signup-middle-section">
                 <form className="signup-middle-section">
                     <input type="text" placeholder="College" className="college-input"></input>
-                    <select name="gender" className="custom-select">
-                        <option className="">Gender</option>
+                    <select name="gender" className="custom-select" >
+                        <option   className="placeholder" value="" disabled selected >Gender</option>
                         <option className="college-input">male</option>
                         <option className="college-input">female</option>
                     </select>

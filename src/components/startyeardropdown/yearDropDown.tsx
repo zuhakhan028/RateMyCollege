@@ -18,9 +18,9 @@ const YearDropdown: React.FC<YearDropdownProps> = () => {
   return (
     <div>
   
-      <select id="yearDropdown" value={selectedYear} onChange={handleYearChange} className="custom-select-year">
+      <select id="yearDropdown" value={selectedYear} onChange={handleYearChange} className="college-start-year">
         {yearOptions.map((year) => (
-          <option key={year} value={year}>
+          <option key={year} value={year} className="college-start-year">
             {year}
           </option>
         ))}

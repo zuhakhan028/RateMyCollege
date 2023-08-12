@@ -1,41 +1,48 @@
-input[type=text]:focus{
- outline: none;
- -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
--moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
-padding-left: 20px;
-font-size: 15px;
-color:rgba(147, 147, 147, 1);
+input[type=text]:focus {
+    outline: none;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    padding-left: 20px;
+    font-size: 15px;
+    color: black;
 
 }
-select:focus{
+/* .select-placeholder{
+     color: rgba(147, 147, 147, 1);
+} */
+select option.placeholder {
+    color: #999;
+  }
+
+select:focus {
     outline: none;
-    -webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
-   -moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
-   box-shadow:0 1px 2px rgba(0, 0, 0, 0.3) inset;
-   padding-left: 20px;
-   font-size: 15px;
-   color:rgba(147, 147, 147, 1);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    padding-left: 20px;
+    font-size: 15px;
+    color:black;
 }
-.signup{
-    width: 100vw;
+
+.signup {
+    width: 98vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
- 
- 
 }
-.custom-select{
+
+.custom-select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 340px;
     height: 45px;
     border-radius: 15px;
-    border: 1px solid rgba(var(--lightGray),1);
+    border: 1px solid rgba(var(--lightGray), 1);
     margin-bottom: 10px;
-   color: rgba(147, 147, 147, 1);
-   font-size: 15px;
+    color:black;
+    font-size: 15px;
     padding-left: 20px;
     background-image: url("../../assets/images/dropdown.svg");
     background-repeat: no-repeat;
@@ -45,17 +52,40 @@ select:focus{
     background-color: white;
 }
 
-.custom-select-year{
+.college-input-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 340px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid rgba(var(--lightGray), 1);
+    margin-bottom: 10px;
+    color:black;
+    font-size: 15px;
+    padding-left: 20px;
+    background-image: url("../../assets/images/dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 12px;
+    cursor: pointer;
+    background-color: white;
+
+
+}
+
+
+.custom-select-year {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 165px;
     height: 45px;
     border-radius: 15px;
-    border: 1px solid rgba(var(--lightGray),1);
+    border: 1px solid rgba(var(--lightGray), 1);
     margin-bottom: 10px;
-    color: rgba(147, 147, 147, 1);
-   font-size: 15px;
+    color:black;
+    font-size: 15px;
     padding-left: 20px;
     background-image: url("../../assets/images/dropdown.svg");
     background-repeat: no-repeat;
@@ -64,86 +94,101 @@ select:focus{
     cursor: pointer;
     background-color: white;
 }
-.signup-header{
+
+.signup-header {
     display: flex;
-   margin-top: 20px;
-   margin-left: 20px;
-   margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
-.signup-middle-section{
+
+.signup-middle-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 70px;
-   
+
 }
-.college-input{
+
+.college-input {
     width: 322px;
     height: 42px;
     border-radius: 15px;
-    border: 1px solid rgba(var(--lightGray),1);
+    border: 1px solid rgba(var(--lightGray), 1);
     margin-bottom: 10px;
-   color: rgba(147, 147, 147, 1);
-   font-size: 15px;
-   padding-left: 10px;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
 
- 
+
 
 }
+.college-input:focus {
+    width: 310px;
+    height: 42px;
+    border-radius: 15px;
+    border: 1px solid rgba(var(--lightGray), 1);
+    margin-bottom: 10px;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+}
 
-.college-input-select{
+
+
+/* .college-input::placeholder {
+    padding-left: 8px;
+    font-size: 15px;
+    color: rgba(147, 147, 147, 1);
+} */
+
+.not-selected{
+    color:rgba(var(--lightGray), 1);
     width: 345px;
     height: 45px;
     border-radius: 15px;
-    border: 1px solid rgba(var(--lightGray),1);
+    border: 1px solid rgba(var(--lightGray), 1);
     margin-bottom: 10px;
-   color: rgba(147, 147, 147, 1);
-   font-size: 15px;
-   padding-left: 30px;
-  
- 
-
-}
-
-
-.college-input::placeholder{
-    padding-left: 8px;
     font-size: 15px;
-     color: rgba(147, 147, 147, 1);}
+    padding-left: 30px
+   
+}
 
-
-.college-start-end-year-div{
-width: 100%;;
-display: flex;
-margin: 0px 5px;
-justify-content: space-between;
+.college-start-end-year-div {
+    width: 100%;
+    ;
+    display: flex;
+    margin: 0px 5px;
+    justify-content: space-between;
 
 }
-.college-start-year{
+
+.college-start-year {
     width: 165px;
     height: 45px;
     border-radius: 15px;
-    border: 1px solid rgba(var(--lightGray),1);
+    border: 1px solid rgba(var(--lightGray), 1);
     margin-bottom: 10px;
-    margin:0px 5px;
+    margin: 0px 5px;
     padding-left: 20px;
-   
-    color: rgba(147, 147, 147, 1);
+
+    color: black;
     font-size: 15px;
 }
-.college-start-year::placeholder{
+
+.college-start-year::placeholder {
     padding-left: 20px;
     font-size: 15px;
 }
-.terms-privacy-policy{
-    color:rgba(var(--lightGray),1);
+
+.terms-privacy-policy {
+    color: rgba(var(--lightGray), 1);
     text-align: center;
     margin-bottom: 20px;
 }
 
-.signup-page-last-section{
+.signup-page-last-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
