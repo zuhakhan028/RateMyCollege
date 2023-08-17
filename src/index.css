@@ -1,10 +1,16 @@
-:root{
-  --lightGray:206, 206, 206;
-  --purple:78, 79, 235
+:root {
+  --lightGray: 206, 206, 206;
+  --purple: 78, 79, 235
 }
+
+html,
+body {
+  height: 100%
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,'Lexend', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Lexend', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,4 +20,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#root{
+  height: 100%;
 }
